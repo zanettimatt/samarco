@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<sdf version="1.10">
+    <world name="porao_samarco">
+        <physics name="1ms" type="ignored">
+            <max_step_size>0.001</max_step_size>
+            <real_time_factor>1.0</real_time_factor>
+        </physics>
+        <plugin
+            filename="gz-sim-physics-system"
+            name="gz::sim::systems::Physics">
+        </plugin>
+
+        <plugin
+            filename="gz-sim-user-commands-system"
+            name="gz::sim::systems::UserCommands">
+        </plugin>
+        <plugin
+            filename="gz-sim-scene-broadcaster-system"
+            name="gz::sim::systems::SceneBroadcaster">
+        </plugin>
+
+        <physics name="default_physics" type="ode">
+            <gravity>0 0 -9.8</gravity> <!-- Gravity vector: x=0, y=0, z=-9.8 -->
+        </physics>
+
+        <light type="directional" name="sun">
+            <cast_shadows>false</cast_shadows>
+            <pose>0 0 5 0 -1.5708 0.7854</pose>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <attenuation>
+                <range>1000</range>
+                <constant>0.9</constant>
+                <linear>0.01</linear>
+                <quadratic>0.001</quadratic>
+            </attenuation>
+            <direction>-0.5 0.1 -0.9</direction>
+        </light>
+        <light type="point" name="lamp">
+            <cast_shadows>false</cast_shadows>
+            <pose>0 0 10 0 -1.5708 0.7854</pose>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <attenuation>
+                <range>1000</range>
+                <constant>0.9</constant>
+                <linear>0.01</linear>
+                <quadratic>0.001</quadratic>
+            </attenuation>
+            <direction>-0.5 0.1 -0.9</direction>
+        </light>
+
+        <model name = "Corpo Porao">
+            <static>true</static>
+            <link name = "Link Corpo Porao 1">
+                <pose> -20.5 15.5 -1 1.5708 0 0 </pose>
+                <visual name = "visual">
+                    <geometry>
+                        <mesh>
+                            <uri>file://src/automation_world/meshes/Parte_1.dae</uri>
+                        </mesh>
+                    </geometry>
+                    <material>
+                    		<diffuse>0.1 0.1 0.1 1</diffuse>
+                    		<specular>0.1 0.1 0.1 1</specular>
+                    </material>
+                </visual>
+                <collision name = "collision">
+                    <geometry>
+                        <mesh>
+                            <uri>file://src/automation_world/meshes/Parte_1.dae</uri>
+                        </mesh>
+                        <scale>1 1 1</scale>
+                    </geometry>
+                </collision>
+            </link>
+            <link name = "Link Corpo Porao 2">
+                <pose> -20.5 15.5 -1 1.5708 0 0 </pose>
+                <visual name = "visual">
+                    <geometry>
+                        <mesh>
+                            <uri>file://src/automation_world/meshes/Parte_2.dae</uri>
+                        </mesh>
+                    </geometry>
+                    <material>
+                    		<diffuse>0.9 0.5 0.1 1</diffuse>
+                    		<specular>0.8 0.4 0.1 1</specular>
+                    </material>
+                </visual>
+                <collision name = "collision">
+                    <geometry>
+                        <mesh>
+                            <uri>file://src/automation_world/meshes/Parte_2.dae</uri>
+                        </mesh>
+                        <scale>1 1 1</scale>
+                    </geometry>
+                </collision>
+            </link>
+        </model>
+    </world>
+</sdf>
