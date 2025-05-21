@@ -1,0 +1,934 @@
+2025-03-24 14:46:31 ros2-1  | Reading package lists...
+2025-03-24 14:46:31 ros2-1  | Building dependency tree...
+2025-03-24 14:46:31 ros2-1  | Reading state information...
+2025-03-24 14:46:31 ros2-1  | The following packages were automatically installed and are no longer required:
+2025-03-24 14:46:31 ros2-1  |   gir1.2-libxfce4util-1.0 gir1.2-xfconf-0 libdbus-glib-1-2
+2025-03-24 14:46:31 ros2-1  | Use 'sudo apt autoremove' to remove them.
+2025-03-24 14:46:31 ros2-1  | The following additional packages will be installed:
+2025-03-24 14:46:31 ros2-1  |   clang-format clang-format-14 libclang-cpp14 ros-humble-ament-clang-format
+2025-03-24 14:46:31 ros2-1  | The following NEW packages will be installed:
+2025-03-24 14:46:31 ros2-1  |   clang-format clang-format-14 libclang-cpp14 ros-humble-ament-clang-format
+2025-03-24 14:46:31 ros2-1  |   ros-humble-ament-cmake-clang-format ros-humble-joint-state-publisher
+2025-03-24 14:46:31 ros2-1  | 0 upgraded, 6 newly installed, 0 to remove and 466 not upgraded.
+2025-03-24 14:46:31 ros2-1  | Need to get 12.1 MB of archives.
+2025-03-24 14:46:31 ros2-1  | After this operation, 59.1 MB of additional disk space will be used.
+2025-03-24 14:46:31 ros2-1  | Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libclang-cpp14 amd64 1:14.0.0-1ubuntu1.1 [12.1 MB]
+2025-03-24 14:46:32 ros2-1  | Get:2 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-clang-format amd64 0.12.11-1jammy.20241126.001300 [14.6 kB]
+2025-03-24 14:46:32 ros2-1  | Get:3 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-ament-cmake-clang-format amd64 0.12.11-1jammy.20241126.001341 [7768 B]
+2025-03-24 14:46:32 ros2-1  | Get:4 http://packages.ros.org/ros2/ubuntu jammy/main amd64 ros-humble-joint-state-publisher amd64 2.4.0-1jammy.20241128.030805 [16.1 kB]
+2025-03-24 14:46:33 ros2-1  | Get:5 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 clang-format-14 amd64 1:14.0.0-1ubuntu1.1 [50.8 kB]
+2025-03-24 14:46:33 ros2-1  | Get:6 http://archive.ubuntu.com/ubuntu jammy/universe amd64 clang-format amd64 1:14.0-55~exp2 [3694 B]
+2025-03-24 14:46:33 ros2-1  | debconf: delaying package configuration, since apt-utils is not installed
+2025-03-24 14:46:33 ros2-1  | Fetched 12.1 MB in 2s (5897 kB/s)
+2025-03-24 14:46:33 ros2-1  | Selecting previously unselected package libclang-cpp14.
+2025-03-24 14:46:33 ros2-1  | (Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 187755 files and directories currently installed.)
+2025-03-24 14:46:33 ros2-1  | Preparing to unpack .../0-libclang-cpp14_1%3a14.0.0-1ubuntu1.1_amd64.deb ...
+2025-03-24 14:46:33 ros2-1  | Unpacking libclang-cpp14 (1:14.0.0-1ubuntu1.1) ...
+2025-03-24 14:46:34 ros2-1  | Selecting previously unselected package clang-format-14.
+2025-03-24 14:46:34 ros2-1  | Preparing to unpack .../1-clang-format-14_1%3a14.0.0-1ubuntu1.1_amd64.deb ...
+2025-03-24 14:46:34 ros2-1  | Unpacking clang-format-14 (1:14.0.0-1ubuntu1.1) ...
+2025-03-24 14:46:34 ros2-1  | Selecting previously unselected package clang-format:amd64.
+2025-03-24 14:46:34 ros2-1  | Preparing to unpack .../2-clang-format_1%3a14.0-55~exp2_amd64.deb ...
+2025-03-24 14:46:34 ros2-1  | Unpacking clang-format:amd64 (1:14.0-55~exp2) ...
+2025-03-24 14:46:34 ros2-1  | Selecting previously unselected package ros-humble-ament-clang-format.
+2025-03-24 14:46:34 ros2-1  | Preparing to unpack .../3-ros-humble-ament-clang-format_0.12.11-1jammy.20241126.001300_amd64.deb ...
+2025-03-24 14:46:34 ros2-1  | Unpacking ros-humble-ament-clang-format (0.12.11-1jammy.20241126.001300) ...
+2025-03-24 14:46:34 ros2-1  | Selecting previously unselected package ros-humble-ament-cmake-clang-format.
+2025-03-24 14:46:34 ros2-1  | Preparing to unpack .../4-ros-humble-ament-cmake-clang-format_0.12.11-1jammy.20241126.001341_amd64.deb ...
+2025-03-24 14:46:34 ros2-1  | Unpacking ros-humble-ament-cmake-clang-format (0.12.11-1jammy.20241126.001341) ...
+2025-03-24 14:46:34 ros2-1  | Selecting previously unselected package ros-humble-joint-state-publisher.
+2025-03-24 14:46:34 ros2-1  | Preparing to unpack .../5-ros-humble-joint-state-publisher_2.4.0-1jammy.20241128.030805_amd64.deb ...
+2025-03-24 14:46:34 ros2-1  | Unpacking ros-humble-joint-state-publisher (2.4.0-1jammy.20241128.030805) ...
+2025-03-24 14:46:34 ros2-1  | Setting up ros-humble-joint-state-publisher (2.4.0-1jammy.20241128.030805) ...
+2025-03-24 14:46:34 ros2-1  | Setting up libclang-cpp14 (1:14.0.0-1ubuntu1.1) ...
+2025-03-24 14:46:34 ros2-1  | Setting up clang-format-14 (1:14.0.0-1ubuntu1.1) ...
+2025-03-24 14:46:34 ros2-1  | Setting up clang-format:amd64 (1:14.0-55~exp2) ...
+2025-03-24 14:46:34 ros2-1  | Setting up ros-humble-ament-clang-format (0.12.11-1jammy.20241126.001300) ...
+2025-03-24 14:46:34 ros2-1  | Setting up ros-humble-ament-cmake-clang-format (0.12.11-1jammy.20241126.001341) ...
+2025-03-24 14:46:34 ros2-1  | Processing triggers for man-db (2.10.2-1) ...
+2025-03-24 14:46:34 ros2-1  | Processing triggers for libc-bin (2.35-0ubuntu3.8) ...
+2025-03-24 14:46:34 ros2-1  | Starting >>> automation_robot_description_pkg
+2025-03-24 14:46:34 ros2-1  | Starting >>> automation_robot_launch_pkg
+2025-03-24 14:46:34 ros2-1  | Starting >>> automation_robot_teleop_pkg
+2025-03-24 14:46:34 ros2-1  | Starting >>> automation_world
+2025-03-24 14:46:34 ros2-1  | Starting >>> autonomous_robot_pkg
+2025-03-24 14:46:34 ros2-1  | Starting >>> magnetic_adhesion_plugin
+2025-03-24 14:46:34 ros2-1  | Starting >>> robot_inclination_pkg
+2025-03-24 14:46:35 ros2-1  | Finished <<< automation_world [0.88s]
+2025-03-24 14:46:36 ros2-1  | Finished <<< automation_robot_teleop_pkg [1.22s]
+2025-03-24 14:46:36 ros2-1  | Finished <<< automation_robot_launch_pkg [1.23s]
+2025-03-24 14:46:36 ros2-1  | Finished <<< autonomous_robot_pkg [1.23s]
+2025-03-24 14:46:36 ros2-1  | Finished <<< automation_robot_description_pkg [1.25s]
+2025-03-24 14:46:36 ros2-1  | Finished <<< robot_inclination_pkg [1.24s]
+2025-03-24 14:46:45 ros2-1  | Finished <<< magnetic_adhesion_plugin [11.0s]
+2025-03-24 14:46:46 ros2-1  | 
+2025-03-24 14:46:46 ros2-1  | Summary: 7 packages finished [11.2s]
+2025-03-24 14:46:46 ros2-1  | [INFO] [launch]: All log files can be found below /root/.ros/log/2025-03-24-17-46-46-357632-docker-desktop-732
+2025-03-24 14:46:46 ros2-1  | [INFO] [launch]: Default logging verbosity is set to INFO
+2025-03-24 14:46:46 ros2-1  | [INFO] [robot_state_publisher-1]: process started with pid [733]
+2025-03-24 14:46:46 ros2-1  | [INFO] [joint_state_publisher-2]: process started with pid [735]
+2025-03-24 14:46:46 ros2-1  | [INFO] [parameter_bridge-3]: process started with pid [737]
+2025-03-24 14:46:46 ros2-1  | [INFO] [robot_inclination-4]: process started with pid [739]
+2025-03-24 14:46:46 ros2-1  | [INFO] [ruby $(which ign) gazebo-5]: process started with pid [741]
+2025-03-24 14:46:46 ros2-1  | [INFO] [ros2-6]: process started with pid [744]
+2025-03-24 14:46:46 ros2-1  | [robot_state_publisher-1] [INFO] [1742838406.633204080] [robot_state_publisher]: got segment base_footprint
+2025-03-24 14:46:46 ros2-1  | [robot_state_publisher-1] [INFO] [1742838406.633284271] [robot_state_publisher]: got segment base_link
+2025-03-24 14:46:46 ros2-1  | [robot_state_publisher-1] [INFO] [1742838406.633290342] [robot_state_publisher]: got segment drivewhl_l2_link
+2025-03-24 14:46:46 ros2-1  | [robot_state_publisher-1] [INFO] [1742838406.633292902] [robot_state_publisher]: got segment drivewhl_l_link
+2025-03-24 14:46:46 ros2-1  | [robot_state_publisher-1] [INFO] [1742838406.633295250] [robot_state_publisher]: got segment drivewhl_r2_link
+2025-03-24 14:46:46 ros2-1  | [robot_state_publisher-1] [INFO] [1742838406.633297589] [robot_state_publisher]: got segment drivewhl_r_link
+2025-03-24 14:46:46 ros2-1  | [robot_state_publisher-1] [INFO] [1742838406.633299736] [robot_state_publisher]: got segment gps_link
+2025-03-24 14:46:46 ros2-1  | [robot_state_publisher-1] [INFO] [1742838406.633301848] [robot_state_publisher]: got segment imu_link
+2025-03-24 14:46:46 ros2-1  | [robot_state_publisher-1] [INFO] [1742838406.633303987] [robot_state_publisher]: got segment lidar_link
+2025-03-24 14:46:46 ros2-1  | [parameter_bridge-3] [INFO] [1742838406.639827173] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/cmd_vel (ignition.msgs.Twist) -> /cmd_vel (geometry_msgs/msg/Twist)] (Lazy 0)
+2025-03-24 14:46:46 ros2-1  | [parameter_bridge-3] [INFO] [1742838406.640707258] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/cmd_vel (geometry_msgs/msg/Twist) -> /cmd_vel (ignition.msgs.Twist)] (Lazy 0)
+2025-03-24 14:46:46 ros2-1  | [parameter_bridge-3] [INFO] [1742838406.641110608] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/lidar (ignition.msgs.LaserScan) -> /lidar (sensor_msgs/msg/LaserScan)] (Lazy 0)
+2025-03-24 14:46:46 ros2-1  | [parameter_bridge-3] [INFO] [1742838406.641764876] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/lidar (sensor_msgs/msg/LaserScan) -> /lidar (ignition.msgs.LaserScan)] (Lazy 0)
+2025-03-24 14:46:46 ros2-1  | [parameter_bridge-3] [INFO] [1742838406.642174610] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/imu (ignition.msgs.IMU) -> /imu (sensor_msgs/msg/Imu)] (Lazy 0)
+2025-03-24 14:46:46 ros2-1  | [parameter_bridge-3] [INFO] [1742838406.642523039] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/imu (sensor_msgs/msg/Imu) -> /imu (ignition.msgs.IMU)] (Lazy 0)
+2025-03-24 14:46:46 ros2-1  | [ros2-6] [INFO] [1742838406.726573716] [ros_gz_sim]: Requesting list of world names.
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() checking directory path "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms" ...
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqeglfs.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqeglfs.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "MetaData": {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "Keys": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]             "eglfs"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         ]
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     },
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QEglFSIntegrationPlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Got keys from plugin meta data ("eglfs")
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqlinuxfb.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqlinuxfb.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "MetaData": {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "Keys": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]             "linuxfb"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         ]
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     },
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QLinuxFbIntegrationPlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Got keys from plugin meta data ("linuxfb")
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqminimal.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqminimal.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "MetaData": {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "Keys": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]             "minimal"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         ]
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     },
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QMinimalIntegrationPlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Got keys from plugin meta data ("minimal")
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqminimalegl.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqminimalegl.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "MetaData": {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "Keys": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]             "minimalegl"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         ]
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     },
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QMinimalEglIntegrationPlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Got keys from plugin meta data ("minimalegl")
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqoffscreen.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqoffscreen.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "MetaData": {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "Keys": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]             "offscreen"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         ]
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     },
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QOffscreenIntegrationPlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Got keys from plugin meta data ("offscreen")
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqvnc.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqvnc.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "MetaData": {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "Keys": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]             "vnc"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         ]
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     },
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QVncIntegrationPlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Got keys from plugin meta data ("vnc")
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqxcb.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqxcb.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QPA.QPlatformIntegrationFactoryInterface.5.3",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "MetaData": {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "Keys": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]             "xcb"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         ]
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     },
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QXcbIntegrationPlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Got keys from plugin meta data ("xcb")
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() checking directory path "/usr/bin/platforms" ...
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] loaded library "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqxcb.so"
+2025-03-24 14:46:46 ros2-1  | [joint_state_publisher-2] [INFO] [1742838406.831456599] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] qt.qpa.xcb: X server does not support XInput 2
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] failed to get the current screen resources
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] loaded library "Xcursor"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [gz.cc:161] Subscribing to [/gazebo/starting_world].
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [gz.cc:163] Waiting for a world to be set from the GUI...
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Received world [/workspace/automation_ws/install/automation_world/share/automation_world/worlds/porao.sdf] from the GUI.
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [gz.cc:167] Unsubscribing from [/gazebo/starting_world].
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Ignition Gazebo Server v6.16.0
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Loading SDF world file[/workspace/automation_ws/install/automation_world/share/automation_world/worlds/porao.sdf].
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Error [Converter.cc:156] Unable to convert from SDF version 1.10 to 1.9
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() checking directory path "/usr/lib/x86_64-linux-gnu/qt5/plugins/platformthemes" ...
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platformthemes/libqgtk3.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platformthemes/libqgtk3.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QPA.QPlatformThemeFactoryInterface.5.1",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "MetaData": {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "Keys": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]             "gtk3"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         ]
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     },
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QGtk3ThemePlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Got keys from plugin meta data ("gtk3")
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() checking directory path "/usr/bin/platformthemes" ...
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() checking directory path "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts" ...
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QPlatformInputContextFactoryInterface.5.1",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "MetaData": {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "Keys": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]             "compose",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]             "xim"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         ]
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     },
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QComposePlatformInputContextPlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Got keys from plugin meta data ("compose", "xim")
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QPlatformInputContextFactoryInterface.5.1",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "MetaData": {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "Keys": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]             "ibus"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         ]
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     },
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QIbusPlatformInputContextPlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] Got keys from plugin meta data ("ibus")
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() checking directory path "/usr/bin/platforminputcontexts" ...
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] loaded library "/usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() checking directory path "/usr/lib/x86_64-linux-gnu/qt5/plugins/styles" ...
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] QFactoryLoader::QFactoryLoader() checking directory path "/usr/bin/styles" ...
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/libqtquick2plugin.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QtQuick2Plugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "uri": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "QtQuick.2"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     ],
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/libqtquickcontrols2plugin.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QtQuickControls2Plugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "uri": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "QtQuick.Controls.2"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     ],
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Material/libqtquickcontrols2materialstyleplugin.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QtQuickControls2MaterialStylePlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "uri": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "QtQuick.Controls.2.Material"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     ],
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Dialogs/libdialogplugin.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QtQuick2DialogsPlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "uri": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "QtQuick.Dialogs"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     ],
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/libqquicklayoutsplugin.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QQmlEngineExtensionInterface",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QtQuickLayoutsPlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "uri": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "QtQuick.Layouts"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     ],
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/libqtgraphicaleffectsplugin.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QtGraphicalEffectsPlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "uri": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "QtGraphicalEffects"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     ],
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Window.2/libwindowplugin.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QQmlEngineExtensionInterface",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QtQuick2WindowPlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "uri": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "QtQuick.Window.2"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     ],
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/libqtquicktemplates2plugin.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QtQuickTemplates2Plugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "uri": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "QtQuick.Templates.2"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     ],
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/private/libqtgraphicaleffectsprivate.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QtGraphicalEffectsPrivatePlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "uri": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "QtGraphicalEffects.private"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     ],
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls/libqtquickcontrolsplugin.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QtQuickControls1Plugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "uri": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "QtQuick.Controls"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     ],
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/PrivateWidgets/libwidgetsplugin.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QtQuick2PrivateWidgetsPlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "uri": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "QtQuick.PrivateWidgets"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     ],
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/Models.2/libmodelsplugin.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QQmlEngineExtensionInterface",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QtQmlModelsPlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "uri": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "QtQml.Models.2"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     ],
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/xcbglintegrations/libqxcb-egl-integration.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QPA.Xcb.QXcbGlIntegrationFactoryInterface.5.5",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "MetaData": {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "Keys": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]             "xcb_egl"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         ]
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     },
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QXcbEglIntegrationPlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/xcbglintegrations/libqxcb-glx-integration.so, metadata=
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QPA.Xcb.QXcbGlIntegrationFactoryInterface.5.5",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "MetaData": {
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         "Keys": [
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]             "xcb_glx"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]         ]
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     },
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QXcbGlxIntegrationPlugin",
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Ignition Gazebo GUI    v6.16.0
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Copied installed config [/usr/share/ignition/ignition-gazebo6/gui/gui.config] to default config [/root/.ignition/gazebo/6/gui.config].
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [Gui.cc:253] Waiting for subscribers to [/gazebo/starting_world]...
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [Application.cc:92] Initializing application.
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:555] Create main window
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick.2/libqtquick2plugin.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/libqtquickcontrols2plugin.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] Trying... "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Material/qtquickcontrols2materialstyleplugin"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] Trying... "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Material/qtquickcontrols2materialstyleplugin.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] Trying... "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Material/libqtquickcontrols2materialstyleplugin"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] Trying... "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Material/libqtquickcontrols2materialstyleplugin.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls.2/Material/libqtquickcontrols2materialstyleplugin.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Dialogs/libdialogplugin.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Layouts/libqquicklayoutsplugin.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/libqtgraphicaleffectsplugin.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Window.2/libwindowplugin.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Templates.2/libqtquicktemplates2plugin.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtGraphicalEffects/private/libqtgraphicaleffectsprivate.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/Controls/libqtquickcontrolsplugin.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQuick/PrivateWidgets/libwidgetsplugin.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/Models.2/libmodelsplugin.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] QFactoryLoader::QFactoryLoader() checking directory path "/usr/lib/x86_64-linux-gnu/qt5/plugins/xcbglintegrations" ...
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/xcbglintegrations/libqxcb-egl-integration.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] Got keys from plugin meta data ("xcb_egl")
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/xcbglintegrations/libqxcb-glx-integration.so"
+2025-03-24 14:46:46 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] QXcbConnection: Failed to initialize GLX
+2025-03-24 14:46:47 ros2-1  | [ros2-6] [INFO] [1742838407.068260566] [ros_gz_sim]: Requested creation of entity.
+2025-03-24 14:46:47 ros2-1  | [ros2-6] [INFO] [1742838407.068315974] [ros_gz_sim]: OK creation of entity.
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/imageformats/libqgif.so, metadata=
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QImageIOHandlerFactoryInterface",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "MetaData": {
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         "Keys": [
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]             "gif"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         ],
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         "MimeTypes": [
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]             "image/gif"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         ]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     },
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QGifPlugin",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/imageformats/libqico.so, metadata=
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QImageIOHandlerFactoryInterface",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "MetaData": {
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         "Keys": [
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]             "ico",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]             "cur"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         ],
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         "MimeTypes": [
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]             "image/vnd.microsoft.icon",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]             "image/vnd.microsoft.icon"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         ]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     },
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QICOPlugin",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/imageformats/libqjpeg.so, metadata=
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QImageIOHandlerFactoryInterface",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "MetaData": {
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         "Keys": [
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]             "jpg",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]             "jpeg"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         ],
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         "MimeTypes": [
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]             "image/jpeg",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]             "image/jpeg"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         ]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     },
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QJpegPlugin",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/imageformats/libqsvg.so, metadata=
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QImageIOHandlerFactoryInterface",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "MetaData": {
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         "Keys": [
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]             "svg",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]             "svgz"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         ],
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         "MimeTypes": [
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]             "image/svg+xml",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]             "image/svg+xml-compressed"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         ]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     },
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QSvgPlugin",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:47 ros2-1  | [INFO] [ros2-6]: process has finished cleanly [pid 744]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] qrc:/qml/StyleDialog.qml:112:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] qrc:/qml/StyleDialog.qml:105:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] qrc:/qml/StyleDialog.qml:98:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] qrc:qml/Main.qml:102:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] qrc:/qml/PluginMenu.qml:27:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines/libqsvgicon.so, metadata=
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QIconEngineFactoryInterface",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "MetaData": {
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         "Keys": [
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]             "svg",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]             "svgz",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]             "svg.gz"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         ]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     },
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QSvgIconPlugin",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/Gazebo/GazeboDrawer.qml:242:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] Got keys from plugin meta data ("xcb_glx")
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] QFactoryLoader::QFactoryLoader() checking directory path "/usr/bin/xcbglintegrations" ...
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/plugins/xcbglintegrations/libqxcb-glx-integration.so"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/plugins/xcbglintegrations/libqxcb-egl-integration.so"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] QFactoryLoader::QFactoryLoader() checking directory path "/usr/lib/x86_64-linux-gnu/qt5/plugins/accessible" ...
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] QFactoryLoader::QFactoryLoader() checking directory path "/usr/bin/accessible" ...
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] QFactoryLoader::QFactoryLoader() checking directory path "/usr/lib/x86_64-linux-gnu/qt5/plugins/imageformats" ...
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/imageformats/libqgif.so"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] Got keys from plugin meta data ("gif")
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/imageformats/libqico.so"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] Got keys from plugin meta data ("ico", "cur")
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/imageformats/libqjpeg.so"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] Got keys from plugin meta data ("jpg", "jpeg")
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/imageformats/libqsvg.so"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] Got keys from plugin meta data ("svg", "svgz")
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] QFactoryLoader::QFactoryLoader() checking directory path "/usr/bin/imageformats" ...
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/plugins/imageformats/libqgif.so"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/plugins/imageformats/libqico.so"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/plugins/imageformats/libqjpeg.so"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/plugins/imageformats/libqsvg.so"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] QFactoryLoader::QFactoryLoader() checking directory path "/usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines" ...
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] QFactoryLoader::QFactoryLoader() looking at "/usr/lib/x86_64-linux-gnu/qt5/plugins/iconengines/libqsvgicon.so"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] Got keys from plugin meta data ("svg", "svgz", "svg.gz")
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] QFactoryLoader::QFactoryLoader() checking directory path "/usr/bin/iconengines" ...
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [PathManager.cc:66] Requesting resource paths through [/gazebo/resource_paths/get]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Gui.cc:333] GUI requesting list of world names. The server may be busy downloading resources. Please be patient.
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [PathManager.cc:55] Received resource paths.
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/libqmlplugin.so, metadata=
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "org.qt-project.Qt.QQmlExtensionInterface/1.0",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "QtQmlPlugin",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "uri": [
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]         "QtQml"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     ],
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] Found metadata in lib /usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/IgnGazebo/libEntityContextMenu.so, metadata=
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] {
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "IID": "IgnGazebo/1.0",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "archreq": 0,
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "className": "IgnGazeboPlugin",
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "debug": false,
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5]     "version": 331520
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:57:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Gui.cc:391] Requesting GUI from [/world/porao_samarco/gui/info]...
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [GuiRunner.cc:145] Requesting initial state from [/world/porao_samarco/state]...
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Loading config [/root/.ignition/gazebo/6/gui.config]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:426] Loading plugin [MinimalScene]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/qt5/qml/QtQml/libqmlplugin.so"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Added plugin [3D View] to main window
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Loaded plugin [MinimalScene] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libMinimalScene.so]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:426] Loading plugin [EntityContextMenuPlugin]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:791] [QT] loaded library "/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/IgnGazebo/libEntityContextMenu.so"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Added plugin [Entity Context Menu] to main window
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Loaded plugin [EntityContextMenuPlugin] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libEntityContextMenuPlugin.so]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:426] Loading plugin [GzSceneManager]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Added plugin [Scene Manager] to main window
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Loaded plugin [GzSceneManager] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libGzSceneManager.so]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:426] Loading plugin [InteractiveViewControl]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Camera view controller topic advertised on [/gui/camera/view_control]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Camera reference visual topic advertised on [/gui/camera/view_control/reference_visual]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Camera view control sensitivity advertised on [/gui/camera/view_control/sensitivity]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Added plugin [Interactive view control] to main window
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Loaded plugin [InteractiveViewControl] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libInteractiveViewControl.so]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:426] Loading plugin [CameraTracking]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Added plugin [Camera tracking] to main window
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Loaded plugin [CameraTracking] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libCameraTracking.so]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:426] Loading plugin [MarkerManager]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Listening to stats on [/world/porao_samarco/stats]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Added plugin [Marker Manager] to main window
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Loaded plugin [MarkerManager] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libMarkerManager.so]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/Spawn/Spawn.qml:32:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/WorldControl/WorldControl.qml:30:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:426] Loading plugin [SelectEntities]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Added plugin [Select entities] to main window
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Loaded plugin [SelectEntities] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libSelectEntities.so]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:426] Loading plugin [Spawn]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Added plugin [Spawn] to main window
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Loaded plugin [Spawn] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libSpawn.so]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:426] Loading plugin [VisualizationCapabilities]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] View as transparent service on [/gui/view/transparent]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] View as wireframes service on [/gui/view/wireframes]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] View center of mass service on [/gui/view/com]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] View inertia service on [/gui/view/inertia]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] View collisions service on [/gui/view/collisions]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] View joints service on [/gui/view/joints]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] View frames service on [/gui/view/frames]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Added plugin [Visualization capabilities] to main window
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Loaded plugin [VisualizationCapabilities] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libVisualizationCapabilities.so]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:426] Loading plugin [WorldControl]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Using world control service [/world/porao_samarco/control]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Listening to stats on [/world/porao_samarco/stats]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [WorldControl.cc:246] Using an event to share WorldControl msgs with the server
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Added plugin [World control] to main window
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Loaded plugin [WorldControl] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libWorldControl.so]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:426] Loading plugin [WorldStats]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Listening to stats on [/world/porao_samarco/stats]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Added plugin [World stats] to main window
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Loaded plugin [WorldStats] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libWorldStats.so]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Application.cc:426] Loading plugin [Shapes]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Added plugin [Shapes] to main window
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Msg] Loaded plugin [Shapes] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libShapes.so]
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/TransformControl/TransformControl.qml:104:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/TransformControl/TransformControl.qml:99:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/TransformControl/TransformControl.qml:94:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/TransformControl/TransformControl.qml:89:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityTree/EntityTree.qml:148:7: QML ToolButton: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] QXcbConnection: XCB error: 1 (BadRequest), sequence: 165, resource id: 90, major code: 130 (Unknown), minor code: 47
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] QXcbConnection: XCB error: 170 (Unknown), sequence: 180, resource id: 90, major code: 146 (Unknown), minor code: 20
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/WorldStats/WorldStats.qml:53:3: QML RowLayout: Binding loop detected for property "x"
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:52:3: QML RenderWindowOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+2025-03-24 14:46:47 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Wrn] [Application.cc:797] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:67:3: QML EntityContextMenu: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] libEGL warning: MESA-LOADER: failed to open vgem: /usr/lib/dri/vgem_dri.so: cannot open shared object file: No such file or directory (search paths /usr/lib/x86_64-linux-gnu/dri:\$${ORIGIN}/dri:/usr/lib/dri, suffix _dri)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] libEGL warning: NEEDS EXTENSION: falling back to kms_swrast
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): currentGLContext was specified with no current GL context in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 163)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): currentGLContext was specified with no current GL context in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 163)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): currentGLContext was specified with no current GL context in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 163)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): currentGLContext was specified with no current GL context in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 163)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): currentGLContext was specified with no current GL context in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 163)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): currentGLContext was specified with no current GL context in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 163)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): currentGLContext was specified with no current GL context in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 163)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): currentGLContext was specified with no current GL context in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 163)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): currentGLContext was specified with no current GL context in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 163)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): currentGLContext was specified with no current GL context in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 163)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Err] [Ogre2RenderEngine.cc:997] Unable to create the rendering window after [11] attempts.
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Err] [Ogre2RenderEngine.cc:915] Failed to create dummy render window.
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Err] [Ogre2RenderEngine.cc:916] Please see the troubleshooting page for possible fixes: https://gazebosim.org/docs/fortress/troubleshooting
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] Stack trace (most recent call last) in thread 921:
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #31   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f932ea6984f, in 
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #30   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f932e9d7ac2, in 
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #29   Object "/lib/x86_64-linux-gnu/libQt5Core.so.5", at 0x7f9329135ca0, in 
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #28   Object "/lib/x86_64-linux-gnu/libQt5Core.so.5", at 0x7f9329134af1, in QThread::exec()
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #27   Object "/lib/x86_64-linux-gnu/libQt5Core.so.5", at 0x7f932932175a, in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #26   Object "/lib/x86_64-linux-gnu/libQt5Core.so.5", at 0x7f932937c0b7, in QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #25   Object "/lib/x86_64-linux-gnu/libglib-2.0.so.0", at 0x7f9326e903e2, in g_main_context_iteration
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #24   Object "/lib/x86_64-linux-gnu/libglib-2.0.so.0", at 0x7f9326ee82b7, in 
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #23   Object "/lib/x86_64-linux-gnu/libglib-2.0.so.0", at 0x7f9326e92d3a, in g_main_context_dispatch
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #22   Object "/lib/x86_64-linux-gnu/libQt5Core.so.5", at 0x7f932937ca66, in 
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #21   Object "/lib/x86_64-linux-gnu/libQt5Core.so.5", at 0x7f9329325f26, in QCoreApplicationPrivate::sendPostedEvents(QObject*, int, QThreadData*)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #20   Object "/lib/x86_64-linux-gnu/libQt5Core.so.5", at 0x7f9329322e39, in QCoreApplication::notifyInternal2(QObject*, QEvent*)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #19   Object "/lib/x86_64-linux-gnu/libQt5Widgets.so.5", at 0x7f9328a82712, in QApplicationPrivate::notify_helper(QObject*, QEvent*)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #18   Object "/lib/x86_64-linux-gnu/libQt5Core.so.5", at 0x7f932935041d, in QObject::event(QEvent*)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #17   Object "/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libMinimalScene.so", at 0x7f93042cbf8f, in ignition::gui::plugins::RenderThread::RenderNext(ignition::gui::plugins::RenderSync*)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #16   Object "/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libMinimalScene.so", at 0x7f93042cb73e, in ignition::gui::plugins::IgnRenderer::Initialize[abi:cxx11]()
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #15   Object "/lib/x86_64-linux-gnu/libignition-rendering6.so.6", at 0x7f930424880b, in ignition::rendering::v6::RenderEngineManager::Engine(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #14   Object "/lib/x86_64-linux-gnu/libignition-rendering6.so.6", at 0x7f93042485ee, in ignition::rendering::v6::RenderEngineManagerPrivate::Engine(EngineInfo, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #13   Object "/lib/x86_64-linux-gnu/libignition-rendering6.so.6", at 0x7f9304251381, in ignition::rendering::v6::BaseRenderEngine::Init()
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #12   Object "/usr/lib/x86_64-linux-gnu/ign-rendering-6/engine-plugins/libignition-rendering-ogre2.so", at 0x7f9274580b52, in ignition::rendering::v6::Ogre2RenderEngine::InitImpl()
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #11   Object "/usr/lib/x86_64-linux-gnu/ign-rendering-6/engine-plugins/libignition-rendering-ogre2.so", at 0x7f927457fdb7, in ignition::rendering::v6::Ogre2RenderEngine::InitAttempt()
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #10   Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f925c376738, in Ogre::ResourceGroupManager::initialiseAllResourceGroups(bool)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #9    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f925c382f2e, in Ogre::ResourceGroupManager::parseResourceGroupScripts(Ogre::ResourceGroupManager::ResourceGroup*)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #8    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f925c3bc31c, in Ogre::ScriptCompilerManager::parseScript(Ogre::SharedPtr<Ogre::DataStream>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #7    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f925c3b4112, in Ogre::ScriptCompiler::compile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #6    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f925c3b3e12, in Ogre::ScriptCompiler::compile(Ogre::SharedPtr<std::__cxx11::list<Ogre::SharedPtr<Ogre::ConcreteNode>, Ogre::STLAllocator<Ogre::SharedPtr<Ogre::ConcreteNode>, Ogre::CategorisedAllocPolicy<(Ogre::MemoryCategory)0> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #5    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f925c3c4799, in Ogre::MaterialTranslator::translate(Ogre::ScriptCompiler*, Ogre::SharedPtr<Ogre::AbstractNode> const&)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #4    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f925c3c5817, in Ogre::TechniqueTranslator::translate(Ogre::ScriptCompiler*, Ogre::SharedPtr<Ogre::AbstractNode> const&)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #3    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f925c3cab64, in Ogre::PassTranslator::translate(Ogre::ScriptCompiler*, Ogre::SharedPtr<Ogre::AbstractNode> const&)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #2    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f925c436649, in Ogre::Technique::createPass()
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #1    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f925c33d3ba, in Ogre::Pass::Pass(Ogre::Technique*, unsigned short)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] #0    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f925c27297d, in Ogre::Hlms::createDatablock(Ogre::IdString, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, Ogre::HlmsMacroblock const&, Ogre::HlmsBlendblock const&, std::vector<std::pair<Ogre::IdString, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, Ogre::STLAllocator<std::pair<Ogre::IdString, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, Ogre::CategorisedAllocPolicy<(Ogre::MemoryCategory)0> > > const&, bool, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] Segmentation fault (Address not mapped to object [0x220])
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [GUI] [Dbg] [Msg] Serving entity system service on [/entity/system/add]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [Physics.cc:804] Loaded [ignition::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/ign-physics-5/engine-plugins/libignition-physics-dartsim-plugin.so]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::Physics] for entity [1]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Create service on [/world/porao_samarco/create]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Remove service on [/world/porao_samarco/remove]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Pose service on [/world/porao_samarco/set_pose]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Pose service on [/world/porao_samarco/set_pose_vector]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Light configuration service on [/world/porao_samarco/light_config]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Physics service on [/world/porao_samarco/set_physics]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] SphericalCoordinates service on [/world/porao_samarco/set_spherical_coordinates]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Enable collision service on [/world/porao_samarco/enable_collision]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Disable collision service on [/world/porao_samarco/disable_collision]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Material service on [/world/porao_samarco/visual_config]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Material service on [/world/porao_samarco/wheel_slip]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Loaded level [3]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Serving world controls on [/world/porao_samarco/control], [/world/porao_samarco/control/state] and [/world/porao_samarco/playback/control]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Serving GUI information on [/world/porao_samarco/gui/info]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] World [porao_samarco] initialized with [1ms] physics profile.
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Serving world SDF generation service on [/world/porao_samarco/generate_world_sdf]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Serving world names on [/gazebo/worlds]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Resource path add service on [/gazebo/resource_paths/add].
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Resource path get service on [/gazebo/resource_paths/get].
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Resource paths published on [/gazebo/resource_paths].
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Server control service on [/server_control].
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Found no publishers on /stats, adding root stats topic
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Found no publishers on /clock, adding root clock topic
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [SimulationRunner.cc:496] Creating PostUpdate worker threads: 2
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [SimulationRunner.cc:507] Creating postupdate worker thread (0)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] DiffDrive subscribing to twist messages on [/cmd_vel]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [SystemManager.cc:70] Loaded system [ignition::gazebo::systems::DiffDrive] for entity [12]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] DiffDrive subscribing to twist messages on [/cmd_vel]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [SystemManager.cc:70] Loaded system [ignition::gazebo::systems::DiffDrive] for entity [12]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Listening to lidar data in [/lidar]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [SystemManager.cc:70] Loaded system [magnetic_adhesion_plugin] for entity [12]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [SystemManager.cc:70] Loaded system [ignition::gazebo::systems::Imu] for entity [18]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [Sensors.cc:506] Configuring Sensors system
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [Sensors.cc:431] SensorsPrivate::Run
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [SystemManager.cc:70] Loaded system [ignition::gazebo::systems::Sensors] for entity [19]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [Sensors.cc:411] SensorsPrivate::RenderThread started
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [Sensors.cc:258] Waiting for init
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [UserCommands.cc:1303] Created entity [12] named [isi_robot]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Serving scene information on [/world/porao_samarco/scene/info]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Serving graph information on [/world/porao_samarco/scene/graph]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Serving full state on [/world/porao_samarco/state]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Serving full state (async) on [/world/porao_samarco/state_async]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Publishing scene information on [/world/porao_samarco/scene/info]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Publishing entity deletions on [/world/porao_samarco/scene/deletion]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Publishing state changes on [/world/porao_samarco/state]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Publishing pose messages on [/world/porao_samarco/pose/info]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Publishing dynamic pose messages on [/world/porao_samarco/dynamic_pose/info]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [SimulationRunner.cc:523] Exiting postupdate worker thread (0)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [SimulationRunner.cc:496] Creating PostUpdate worker threads: 6
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [SimulationRunner.cc:507] Creating postupdate worker thread (0)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [SimulationRunner.cc:507] Creating postupdate worker thread (1)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [SimulationRunner.cc:507] Creating postupdate worker thread (2)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [SimulationRunner.cc:507] Creating postupdate worker thread (3)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [SimulationRunner.cc:507] Creating postupdate worker thread (4)
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [Sensors.cc:610] Initialization needed
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [Sensors.cc:270] Initializing render context
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Msg] Loading plugin [ignition-rendering-ogre2]
+2025-03-24 14:46:48 ros2-1  | [ruby $(which ign) gazebo-5] [Err] [Ogre2RenderEngine.cc:424] Unable to create glx fbconfig
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] libEGL warning: MESA-LOADER: failed to open vgem: /usr/lib/dri/vgem_dri.so: cannot open shared object file: No such file or directory (search paths /usr/lib/x86_64-linux-gnu/dri:\$${ORIGIN}/dri:/usr/lib/dri, suffix _dri)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] 
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] libEGL warning: NEEDS EXTENSION: falling back to kms_swrast
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): Invalid parentWindowHandle (wrong server or screen) in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 274)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): Invalid parentWindowHandle (wrong server or screen) in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 274)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): Invalid parentWindowHandle (wrong server or screen) in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 274)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): Invalid parentWindowHandle (wrong server or screen) in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 274)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): Invalid parentWindowHandle (wrong server or screen) in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 274)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): Invalid parentWindowHandle (wrong server or screen) in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 274)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): Invalid parentWindowHandle (wrong server or screen) in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 274)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): Invalid parentWindowHandle (wrong server or screen) in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 274)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): Invalid parentWindowHandle (wrong server or screen) in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 274)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] [Err] [Ogre2RenderEngine.cc:989]  Unable to create the rendering window: OGRE EXCEPTION(3:RenderingAPIException): Invalid parentWindowHandle (wrong server or screen) in GLXWindow::create at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/windowing/GLX/OgreGLXWindow.cpp (line 274)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] [Err] [Ogre2RenderEngine.cc:997] Unable to create the rendering window after [11] attempts.
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] [Err] [Ogre2RenderEngine.cc:915] Failed to create dummy render window.
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] [Err] [Ogre2RenderEngine.cc:916] Please see the troubleshooting page for possible fixes: https://gazebosim.org/docs/fortress/troubleshooting
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] Stack trace (most recent call last) in thread 1015:
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #22   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #21   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f932ea6984f, in 
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #20   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f932e9d7ac2, in 
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #19   Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f932afae252, in 
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #18   Object "/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/libignition-gazebo-sensors-system.so", at 0x7f92f81fb512, in ignition::gazebo::v6::systems::SensorsPrivate::RenderThread()
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #17   Object "/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/libignition-gazebo-sensors-system.so", at 0x7f92f81f9c09, in ignition::gazebo::v6::systems::SensorsPrivate::WaitForInit()
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #16   Object "/lib/x86_64-linux-gnu/libignition-gazebo6-rendering.so.6", at 0x7f92f8120c6c, in ignition::gazebo::v6::RenderUtil::Init()
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #15   Object "/lib/x86_64-linux-gnu/libignition-rendering6.so.6", at 0x7f92eeea080b, in ignition::rendering::v6::RenderEngineManager::Engine(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #14   Object "/lib/x86_64-linux-gnu/libignition-rendering6.so.6", at 0x7f92eeea05ee, in ignition::rendering::v6::RenderEngineManagerPrivate::Engine(EngineInfo, std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #13   Object "/lib/x86_64-linux-gnu/libignition-rendering6.so.6", at 0x7f92eeea9381, in ignition::rendering::v6::BaseRenderEngine::Init()
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #12   Object "/usr/lib/x86_64-linux-gnu/ign-rendering-6/engine-plugins/libignition-rendering-ogre2.so", at 0x7f92ec35cb52, in ignition::rendering::v6::Ogre2RenderEngine::InitImpl()
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #11   Object "/usr/lib/x86_64-linux-gnu/ign-rendering-6/engine-plugins/libignition-rendering-ogre2.so", at 0x7f92ec35bdb7, in ignition::rendering::v6::Ogre2RenderEngine::InitAttempt()
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #10   Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f92ce579738, in Ogre::ResourceGroupManager::initialiseAllResourceGroups(bool)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #9    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f92ce585f2e, in Ogre::ResourceGroupManager::parseResourceGroupScripts(Ogre::ResourceGroupManager::ResourceGroup*)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #8    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f92ce5bf31c, in Ogre::ScriptCompilerManager::parseScript(Ogre::SharedPtr<Ogre::DataStream>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #7    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f92ce5b7112, in Ogre::ScriptCompiler::compile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #6    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f92ce5b6e12, in Ogre::ScriptCompiler::compile(Ogre::SharedPtr<std::__cxx11::list<Ogre::SharedPtr<Ogre::ConcreteNode>, Ogre::STLAllocator<Ogre::SharedPtr<Ogre::ConcreteNode>, Ogre::CategorisedAllocPolicy<(Ogre::MemoryCategory)0> > > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #5    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f92ce5c7799, in Ogre::MaterialTranslator::translate(Ogre::ScriptCompiler*, Ogre::SharedPtr<Ogre::AbstractNode> const&)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #4    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f92ce5c8817, in Ogre::TechniqueTranslator::translate(Ogre::ScriptCompiler*, Ogre::SharedPtr<Ogre::AbstractNode> const&)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #3    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f92ce5cdb64, in Ogre::PassTranslator::translate(Ogre::ScriptCompiler*, Ogre::SharedPtr<Ogre::AbstractNode> const&)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #2    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f92ce639649, in Ogre::Technique::createPass()
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #1    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f92ce5403ba, in Ogre::Pass::Pass(Ogre::Technique*, unsigned short)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] #0    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x7f92ce47597d, in Ogre::Hlms::createDatablock(Ogre::IdString, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, Ogre::HlmsMacroblock const&, Ogre::HlmsBlendblock const&, std::vector<std::pair<Ogre::IdString, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, Ogre::STLAllocator<std::pair<Ogre::IdString, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, Ogre::CategorisedAllocPolicy<(Ogre::MemoryCategory)0> > > const&, bool, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+2025-03-24 14:46:49 ros2-1  | [ruby $(which ign) gazebo-5] Segmentation fault (Address not mapped to object [0x220])
+2025-03-24 14:46:52 ros2-1  | [INFO] [ruby $(which ign) gazebo-5]: process has finished cleanly [pid 741]
+2025-03-24 14:46:52 ros2-1  | [ruby $(which ign) gazebo-5] [Dbg] [ImuSensor.cc:148] IMU data for [isi_ro
+2025-03-24 14:46:52 ros2-1  | [INFO] [launch]: process[ruby $(which ign) gazebo-5] was required: shutting down launched system
+2025-03-24 14:46:52 ros2-1  | [INFO] [robot_inclination-4]: sending signal 'SIGINT' to process[robot_inclination-4]
+2025-03-24 14:46:52 ros2-1  | [INFO] [parameter_bridge-3]: sending signal 'SIGINT' to process[parameter_bridge-3]
+2025-03-24 14:46:52 ros2-1  | [INFO] [joint_state_publisher-2]: sending signal 'SIGINT' to process[joint_state_publisher-2]
+2025-03-24 14:46:52 ros2-1  | [INFO] [robot_state_publisher-1]: sending signal 'SIGINT' to process[robot_state_publisher-1]
+2025-03-24 14:46:52 ros2-1  | [robot_inclination-4] Traceback (most recent call last):
+2025-03-24 14:46:52 ros2-1  | [robot_inclination-4]   File "/workspace/automation_ws/install/robot_inclination_pkg/lib/robot_inclination_pkg/robot_inclination", line 33, in <module>
+2025-03-24 14:46:52 ros2-1  | [robot_inclination-4]     sys.exit(load_entry_point('robot-inclination-pkg==0.0.0', 'console_scripts', 'robot_inclination')())
+2025-03-24 14:46:52 ros2-1  | [robot_inclination-4]   File "/workspace/automation_ws/install/robot_inclination_pkg/lib/python3.10/site-packages/robot_inclination_pkg/robot_inclination.py", line 52, in main
+2025-03-24 14:46:52 ros2-1  | [robot_inclination-4]     rclpy.spin(inclination_calculator)
+2025-03-24 14:46:52 ros2-1  | [robot_inclination-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 222, in spin
+2025-03-24 14:46:52 ros2-1  | [robot_inclination-4]     executor.spin_once()
+2025-03-24 14:46:52 ros2-1  | [robot_inclination-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+2025-03-24 14:46:52 ros2-1  | [robot_inclination-4]     self._spin_once_impl(timeout_sec)
+2025-03-24 14:46:52 ros2-1  | [robot_inclination-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 728, in _spin_once_impl
+2025-03-24 14:46:52 ros2-1  | [robot_inclination-4]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+2025-03-24 14:46:52 ros2-1  | [robot_inclination-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 711, in wait_for_ready_callbacks
+2025-03-24 14:46:52 ros2-1  | [robot_inclination-4]     return next(self._cb_iter)
+2025-03-24 14:46:52 ros2-1  | [robot_inclination-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 608, in _wait_for_ready_callbacks
+2025-03-24 14:46:52 ros2-1  | [robot_inclination-4]     wait_set.wait(timeout_nsec)
+2025-03-24 14:46:52 ros2-1  | [robot_inclination-4] KeyboardInterrupt
+2025-03-24 14:46:52 ros2-1  | [parameter_bridge-3] [INFO] [1742838412.539424068] [rclcpp]: signal_handler(signum=2)
+2025-03-24 14:46:52 ros2-1  | [robot_state_publisher-1] [INFO] [1742838412.540347615] [rclcpp]: signal_handler(signum=2)
+2025-03-24 14:46:52 ros2-1  | [ERROR] [robot_inclination-4]: process has died [pid 739, exit code -2, cmd '/workspace/automation_ws/install/robot_inclination_pkg/lib/robot_inclination_pkg/robot_inclination --ros-args -r __node:=robot_inclination'].
+2025-03-24 14:46:52 ros2-1  | [INFO] [parameter_bridge-3]: process has finished cleanly [pid 737]
+2025-03-24 14:46:52 ros2-1  | [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 733]
+2025-03-24 14:46:52 ros2-1  | [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 735]

@@ -1,0 +1,14 @@
+services:
+  ros2:
+    image: automation_ws_ros2:latest
+    privileged: true
+    network_mode: host
+    environment:
+      - DISPLAY=:0.0
+      - QT_X11_NO_MITSHM=1
+
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
